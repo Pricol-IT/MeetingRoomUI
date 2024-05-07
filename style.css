@@ -1,0 +1,81 @@
+body {
+/*	background: #000;*/
+/*background: rgb(36,41,50);
+background: radial-gradient(circle, rgba(36,41,50,1) 0%, rgba(56,64,68,1) 100%);*/
+background: rgb(95,104,108);
+background: radial-gradient(circle, rgba(95,104,108,1) 0%, rgba(23,26,32,1) 100%);
+	color: #fff;
+/*	padding: 0em 1em;*/
+}
+
+img	{
+	width: 300px;
+	object-fit: contain;
+}
+
+.card-list img {
+	width: 64px;
+}
+
+ul li {
+	list-style: none;
+	 color: #fff;
+}
+
+.liview{
+	display: flex;
+
+}
+.card-list{
+	padding: 1em;
+	color:#fff;
+	height:calc(100vh - 10px);
+}
+.upcoming  li{
+	padding: 0.5em 1em;
+/*	border-bottom: 2px solid #f1f1f1;*/
+/*	background: #fff;*/
+	text-align: center;
+/*	border-radius: 60px;*/
+}
+
+.inside  li{
+	padding: 0.2em;
+	border-bottom: none;
+
+}
+
+.vn {
+/*	background: #f1f1f1;*/
+background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.1 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 0.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+/*	position: absolute;*/
+	
+	
+
+	color:#000;
+}
+.time {
+	width: 200px;
+	height:100px;
+	background: #edeff8;
+	 margin-right: 10px;
+	 text-align: center;
+	 padding: 1em;
+	 color:#000;
+}
+.cdetails {
+	display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.detailpage {
+	height: 90vh;
+	padding: 1em;
+}

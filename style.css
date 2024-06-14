@@ -16,7 +16,7 @@ height: 100%;
 }
 
 img	{
-	width: 300px;
+	width: 150px;
 	object-fit: contain;
 }
 
@@ -83,6 +83,6 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .detailpage {
-	height: 90vh;
+	height: 50vh!important;
 	padding: 1em;
 }
